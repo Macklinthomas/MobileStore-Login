@@ -13,6 +13,12 @@
 		019B72A52440F25A006B6F59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019B72A32440F25A006B6F59 /* Main.storyboard */; };
 		019B72A72440F25B006B6F59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019B72A62440F25B006B6F59 /* Assets.xcassets */; };
 		019B72AA2440F25B006B6F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019B72A82440F25B006B6F59 /* LaunchScreen.storyboard */; };
+		019B72B82441AE76006B6F59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B72B72441AE76006B6F59 /* AppDelegate.swift */; };
+		019B72BA2441AE76006B6F59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B72B92441AE76006B6F59 /* SceneDelegate.swift */; };
+		019B72BC2441AE76006B6F59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B72BB2441AE76006B6F59 /* ViewController.swift */; };
+		019B72BF2441AE76006B6F59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019B72BD2441AE76006B6F59 /* Main.storyboard */; };
+		019B72C42441AE77006B6F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019B72C22441AE77006B6F59 /* LaunchScreen.storyboard */; };
+		019B72CA2441AF74006B6F59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019B72A62440F25B006B6F59 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +30,24 @@
 		019B72A62440F25B006B6F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		019B72A92440F25B006B6F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		019B72AB2440F25B006B6F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019B72B52441AE76006B6F59 /* MobileLoginAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileLoginAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		019B72B72441AE76006B6F59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		019B72B92441AE76006B6F59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		019B72BB2441AE76006B6F59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		019B72BE2441AE76006B6F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		019B72C32441AE77006B6F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		019B72C52441AE77006B6F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		019B72972440F25A006B6F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		019B72B22441AE76006B6F59 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +60,9 @@
 		019B72912440F25A006B6F59 = {
 			isa = PBXGroup;
 			children = (
+				019B72C92441AF38006B6F59 /* Shared */,
 				019B729C2440F25A006B6F59 /* MobileStore */,
+				019B72B62441AE76006B6F59 /* MobileLoginAdmin */,
 				019B729B2440F25A006B6F59 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				019B729A2440F25A006B6F59 /* MobileStore.app */,
+				019B72B52441AE76006B6F59 /* MobileLoginAdmin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,11 +83,31 @@
 				019B729F2440F25A006B6F59 /* SceneDelegate.swift */,
 				019B72A12440F25A006B6F59 /* ViewController.swift */,
 				019B72A32440F25A006B6F59 /* Main.storyboard */,
-				019B72A62440F25B006B6F59 /* Assets.xcassets */,
 				019B72A82440F25B006B6F59 /* LaunchScreen.storyboard */,
 				019B72AB2440F25B006B6F59 /* Info.plist */,
 			);
 			path = MobileStore;
+			sourceTree = "<group>";
+		};
+		019B72B62441AE76006B6F59 /* MobileLoginAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				019B72B72441AE76006B6F59 /* AppDelegate.swift */,
+				019B72B92441AE76006B6F59 /* SceneDelegate.swift */,
+				019B72BB2441AE76006B6F59 /* ViewController.swift */,
+				019B72BD2441AE76006B6F59 /* Main.storyboard */,
+				019B72C22441AE77006B6F59 /* LaunchScreen.storyboard */,
+				019B72C52441AE77006B6F59 /* Info.plist */,
+			);
+			path = MobileLoginAdmin;
+			sourceTree = "<group>";
+		};
+		019B72C92441AF38006B6F59 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				019B72A62440F25B006B6F59 /* Assets.xcassets */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +130,23 @@
 			productReference = 019B729A2440F25A006B6F59 /* MobileStore.app */;
 			productType = "com.apple.product-type.application";
 		};
+		019B72B42441AE76006B6F59 /* MobileLoginAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019B72C62441AE77006B6F59 /* Build configuration list for PBXNativeTarget "MobileLoginAdmin" */;
+			buildPhases = (
+				019B72B12441AE76006B6F59 /* Sources */,
+				019B72B22441AE76006B6F59 /* Frameworks */,
+				019B72B32441AE76006B6F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileLoginAdmin;
+			productName = MobileLoginAdmin;
+			productReference = 019B72B52441AE76006B6F59 /* MobileLoginAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +158,9 @@
 				ORGANIZATIONNAME = "Macklin Thomas";
 				TargetAttributes = {
 					019B72992440F25A006B6F59 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					019B72B42441AE76006B6F59 = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
@@ -116,6 +179,7 @@
 			projectRoot = "";
 			targets = (
 				019B72992440F25A006B6F59 /* MobileStore */,
+				019B72B42441AE76006B6F59 /* MobileLoginAdmin */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +195,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		019B72B32441AE76006B6F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019B72C42441AE77006B6F59 /* LaunchScreen.storyboard in Resources */,
+				019B72CA2441AF74006B6F59 /* Assets.xcassets in Resources */,
+				019B72BF2441AE76006B6F59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,6 +215,16 @@
 				019B72A22440F25A006B6F59 /* ViewController.swift in Sources */,
 				019B729E2440F25A006B6F59 /* AppDelegate.swift in Sources */,
 				019B72A02440F25A006B6F59 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		019B72B12441AE76006B6F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019B72BC2441AE76006B6F59 /* ViewController.swift in Sources */,
+				019B72B82441AE76006B6F59 /* AppDelegate.swift in Sources */,
+				019B72BA2441AE76006B6F59 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +243,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				019B72A92440F25B006B6F59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		019B72BD2441AE76006B6F59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019B72BE2441AE76006B6F59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		019B72C22441AE77006B6F59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019B72C32441AE77006B6F59 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,6 +416,42 @@
 			};
 			name = Release;
 		};
+		019B72C72441AE77006B6F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5V68X5CB49;
+				INFOPLIST_FILE = MobileLoginAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myappco.MyFirstApp.MobileLoginAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		019B72C82441AE77006B6F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5V68X5CB49;
+				INFOPLIST_FILE = MobileLoginAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myappco.MyFirstApp.MobileLoginAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -333,6 +469,15 @@
 			buildConfigurations = (
 				019B72AF2440F25B006B6F59 /* Debug */,
 				019B72B02440F25B006B6F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		019B72C62441AE77006B6F59 /* Build configuration list for PBXNativeTarget "MobileLoginAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019B72C72441AE77006B6F59 /* Debug */,
+				019B72C82441AE77006B6F59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
